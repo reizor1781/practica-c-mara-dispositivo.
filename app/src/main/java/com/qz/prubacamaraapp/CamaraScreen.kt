@@ -83,7 +83,7 @@ fun CameraScreen() {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-  
+
         imagenBitmap?.let { bitmap ->
             Image(
                 bitmap = bitmap.asImageBitmap(),
